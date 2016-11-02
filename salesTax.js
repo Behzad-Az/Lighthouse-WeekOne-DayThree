@@ -1,10 +1,11 @@
+// GIVEB
 var salesTaxRates = {
   AB: 0.05,
   BC: 0.12,
   SK: 0.10
 };
 
-// This is an array of objects.
+// GIVEN - This is an array of objects.
 var companySalesData = [
   {
     name: "Telus",
@@ -23,8 +24,8 @@ var companySalesData = [
   }
 ];
 
+// Implement your code here
 function salesTaxReport(salesData, taxRates) {
-  // Implement your code here
   // Start with empty final results array.
   var results = {};
 
