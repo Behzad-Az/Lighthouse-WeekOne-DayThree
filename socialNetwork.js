@@ -169,7 +169,6 @@ var data =
          }
       }
     }
-
   }
 
 data.whoFollowsWho(data.listUsers());
