@@ -64,6 +64,11 @@ function salesTaxReport(salesData, taxRates) {
 var results = salesTaxReport(companySalesData, salesTaxRates);
 console.log(results);
 
+function newResultObj () {
+  this.totalSales = 0;
+  this.totalTaxes = 0;
+}
+
 /* Expected Results:
 var results =
 {
